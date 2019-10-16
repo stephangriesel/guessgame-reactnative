@@ -9,18 +9,18 @@ const Header = props => {
     )
 };
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     header: {
         width: '100%',
         height: 90,
         paddingTop: 36,
-        backgroundColor: '#979797',
+        backgroundColor: '#5fa8cf',
         alignItems: 'center',
         justifyContent: 'center'
     },
     headerTitle: {
         color: 'black',
-        fontSize: 18
+        fontSize: 19
     }
 });
 
